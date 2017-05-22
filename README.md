@@ -14,7 +14,7 @@ Technologies used:
 
 ### Build
 
-Each service is independent and are all built with Gradle coincidentally, hence:
+Each service is independent and all services are built with Gradle coincidentally, hence:
 
 ```sh
 cd users-service && ./gradlew build && cd ..
