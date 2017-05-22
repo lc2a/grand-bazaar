@@ -1,7 +1,7 @@
-# Marketplace
+# Grand Bazaar
 
-A shallow microservices implementation of a few features usually found in a marketplace,
-such as property search, user notifications on new property matching a set of criteria, etc.
+A shallow microservices implementation of a marketplace with a few features such as
+property search, user notifications on new property matching a set of criteria, etc.
 The approach doesn't leverage CQRS or Event Sourcing.
 
 Technologies used:
