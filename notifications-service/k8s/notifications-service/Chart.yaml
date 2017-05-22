@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Marketplace's notifications service
+name: notifications-service
+version: 0.1.0

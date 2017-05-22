@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - properties-mongodb
+      - rabbitmq
+  properties-mongodb:
+    image: mongo:3.4
+    ports:
+      - "27017:27017"
+    command: mongod --smallfiles
+  rabbitmq:
+    image: rabbitmq:3.6-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
